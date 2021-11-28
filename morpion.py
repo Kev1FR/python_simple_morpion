@@ -63,8 +63,6 @@ def verifVictoire(symbole):
         return True
     return False
 
-
-Jeu = True
 Rejouer = "O"
 Joueur1 = {"prenom" : "", "symbole" : "X"}
 Joueur2 = {"prenom" : "", "symbole" : "O"}
@@ -90,7 +88,7 @@ while Rejouer == "O":
     JoueurActuel = random.choice([Joueur1, Joueur2])
     time.sleep(2)
     afficherSeparateur()
-    while Jeu:
+    while True:
         print(JoueurActuel['prenom']," à ton tour !")
         afficherGrille()
         while True :
