@@ -1,5 +1,5 @@
 """
-# Projet : Création d'un morpion
+# Projet : Création d'un morpion par Kevin GOMBAU (https://kevingombau.fr)
        0     1     2
     ┏━━━━━┳━━━━━┳━━━━━┓
  0  ┃  _  ┃  _  ┃  _  ┃
