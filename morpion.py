@@ -43,7 +43,7 @@ def afficherSeparateur():
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 
 def verifVictoire(symbole):
-    """str -> True
+    """str -> Bool
        Renvoie True si trois symboles sont alignés"""
 
     for i in grille: # Cas où une ligne est alignée
